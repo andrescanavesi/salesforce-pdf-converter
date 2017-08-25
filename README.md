@@ -1,12 +1,13 @@
 # Salesforce advanced pdf converter
 
 This example shows how to use an org to convert html to advanced pdf using a Java client (Maven project)
-All we know renderAs="pdf" but now Salesforce has an advanced pdf converter: renderAs="advanced_pdf".
 
-Still this functionality is in pilot what It means that you need to create a case and someone from support will activate It in your org.
+All we know *renderAs="pdf"* but now Salesforce has an advanced pdf converter: *renderAs="advanced_pdf"*
 
-"Advanced PDF renders Visualforce pages as PDF files with broader support for modern HTML standards, such as CSS3, JavaScript, and HTML5.
-This change applies to both Lightning Experience and Salesforce Classic."
+Still this functionality is a **pilot** what It means that you need to create a case and someone from support will activate It in your org.
+
+*"Advanced PDF renders Visualforce pages as PDF files with broader support for modern HTML standards, such as CSS3, JavaScript, and HTML5.
+This change applies to both Lightning Experience and Salesforce Classic."*
 [Read more](https://releasenotes.docs.salesforce.com/en-us/summer17/release-notes/rn_vf_advanced_pdf.htm)
 
 Once activated you can test It by creating a Visualforce page like this:

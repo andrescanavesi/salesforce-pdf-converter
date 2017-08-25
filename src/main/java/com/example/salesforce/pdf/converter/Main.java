@@ -25,7 +25,8 @@ public class Main {
             String html = new Scanner(file1).useDelimiter("\\Z").next();
 
             SalesforcePdfConverter salesforcePdfConverter = new SalesforcePdfConverter();
-            salesforcePdfConverter.convert(html);
+            File filePdf = salesforcePdfConverter.convert(html);
+            LOG.log(Level.INFO, "Pdf saved at: {0}", filePdf.getAbsolutePath());
         } catch (Exception ex) {
             LOG.log(Level.SEVERE, ex.getMessage(), ex);
         }
